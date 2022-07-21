@@ -8,8 +8,8 @@ services:
     pids_limit: 256
     mem_limit: 1024m
     restart: unless-stopped
-    deploy:
-      replicas: 4
+    # deploy:
+    #   replicas: 4
     depends_on:
       - db
   reporter:
